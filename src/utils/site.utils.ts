@@ -2,6 +2,7 @@ import express, { Application, NextFunction, Request, Response } from "express";
 import helmet from "helmet"
 import morgan from "morgan";
 import cors from "cors";
+import cookieParser from "cookie-parser";
 import client from "prom-client";
 
 const register = new client.Registry();
@@ -36,6 +37,7 @@ export default (app: Application) => {
      app.use(cors({
           origin: "*"
      }));
+     app.use(cookieParser());
      app.use(helmet())
      app.use(morgan("dev"))
      app.use(express.json({
