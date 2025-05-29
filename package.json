@@ -61,6 +61,7 @@
     "@types/request": "^2.48.12",
     "@types/request-ip": "^0.0.41",
     "@types/xlsx": "^0.0.36",
+    "docx": "^9.5.0",
     "nodemon": "^3.1.10",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3"
