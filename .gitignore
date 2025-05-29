@@ -6,3 +6,9 @@ node_modules
 *html
 SQL
 .DS_Store
+*.jpg
+*.webp
+*.png
+*.jpeg
+*.pdf
+*.xlsx
